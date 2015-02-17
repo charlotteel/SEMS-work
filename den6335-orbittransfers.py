@@ -38,3 +38,10 @@ def totaldv(mu_planet,rcirc,rp):
     return deltav12
 
 mercurytotal = totaldv(21550,60401250,2330)
+venustotal = totaldv(309750,101001500,6200)
+marstotal = totaldv(42300,246001000,3583)
+jupitertotal = totaldv(118999750,732000000,71357)
+saturntotal = totaldv(37099500,1539999500,60256)
+uranustotal = totaldv(6269500,2710001250,25693)
+neptunetotal = totaldv(6900500,4180001500,24736)
+plutototal = totaldv(43650,5370000000,950)
