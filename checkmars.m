@@ -7,7 +7,7 @@ for i=1:length(array)
     th=array(i,1);
     radius=(a*(1-(e^2)))/(1+(e*cos(th)));
     if radius >= 227939100
-        disp(array(i,:))
+        arrvals=array(i,:);
         break
     end
 end
